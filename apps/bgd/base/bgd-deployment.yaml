@@ -19,7 +19,7 @@ spec:
         app: bgd
     spec:
       containers:
-      - image: docker.io/fdaluisio/bgd:1.0.0
+      - image: docker.io/fdaluisio/bgd:1.0.1
         name: bgd
         env:
         - name: COLOR
