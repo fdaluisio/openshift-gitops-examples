@@ -19,10 +19,10 @@ spec:
         app: bgd
     spec:
       containers:
-      - image: quay.io/rhdevelopers/bgd:1.0.0
+      - image: docker.io/fdaluisio/bgd:1.0.0
         name: bgd
         env:
         - name: COLOR
-          value: "blue"
+          value: "red"
         resources: {}
 ---
