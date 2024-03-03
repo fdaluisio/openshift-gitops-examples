@@ -12,6 +12,8 @@ spec:
     path: apps/bgd/overlays/bgd
     repoURL: https://github.com/fdaluisio/openshift-gitops-examples
     targetRevision: main
+    directory:
+	recurse: true
   syncPolicy:
     automated:
       prune: true
